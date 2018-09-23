@@ -104,8 +104,9 @@ Task("Test")
                 Configuration = configuration
             };
         
-        DotNetCoreTest("./bitprim.tests.bch",settings);
-        DotNetCoreTest("./bitprim.tests.btc",settings);
+        DotNetCoreTest("./bitprim.tests.bch", settings);
+        DotNetCoreTest("./bitprim.tests.btc", settings);
+        DotNetCoreTest("./bitprim.tests.common", settings);
     });
 
 Task("Package")
