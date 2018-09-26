@@ -23,6 +23,10 @@
       <None Include="..\bitprim\docs\Doxyfile" Link="docs\Doxyfile" /> 
   </ItemGroup>
 
+  <PropertyGroup>
+    <DefineConstants>$(DefineConstants);BCH</DefineConstants>
+  </PropertyGroup>
+
   <ItemGroup>
     <!-- pack the target files -->
     <Content Include="build\netstandard2.0\bitprim-bch.targets" PackagePath="build\netstandard2.0\bitprim-bch.targets" />  

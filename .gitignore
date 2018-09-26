@@ -14,6 +14,7 @@
 /bitprim-bch/obj
 /bitprim-btc/obj/
 /bitprim-btc/bin/
+/bitprim.tests.bch/*.so
 /bitprim.tests.bch/bin/
 /bitprim.tests.bch/obj/
 /bitprim.tests.bch/conaninfo.txt
@@ -30,6 +31,11 @@
 /bitprim.tests.btc/conanbuildinfo.cmake
 /bitprim.tests.btc/conan_imports_manifest.txt
 /bitprim.tests.btc/libbitprim-node-cint.dll
+bitprim.tests.common/bin/
+bitprim.tests.common/*.txt
+bitprim.tests.common/*.cmake
+bitprim.tests.common/*.so
+bitprim.tests.common/obj/
 /bitprim.console/obj
 /bitprim.console/bin
 /bitprim.console/conanbuildinfo.txt
